@@ -6,7 +6,7 @@ import { countriesApi } from "./services";
 
 type Country = {
   cca3: string;
-  flag:{
+  flags:{
     svg: string;
   }
   name: {
